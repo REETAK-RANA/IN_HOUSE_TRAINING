@@ -1,1 +1,107 @@
+### 1. Write a code to Create a tuple with elemnets 100 ,200 and 300 .
+x=(100,200,300)
+print(x)
 
+### 2.  Write a code to Access the second last element of a tuple .
+colors = ('red', 'green', 'blue', 'yellow')
+second_to_last = colors[-2]
+print(second_to_last)
+
+### 3. Write a code to  Find the Minimum Number in a Tuple .
+numbers = (10, 20, 5, 15)
+min_number = min(numbers)
+print(min_number)
+
+### 4. Write a code to Find the Index of an Element in a Tuple .
+animals = ('dog', 'cat', 'rabbit')
+index = animals.index('cat')
+print(index)
+
+### 5. Write a code to Create a Tuple cantaining three different fruits and Check for "kiwi" .
+fruits = ('apple', 'banana', 'orange')
+if 'kiwi' in fruits:
+    print("Yes, 'kiwi' is in the tuple.")
+else:
+    print("No, 'kiwi' is not in the tuple.")
+
+### 6. Write a code to Create a Set of elements and Print It .
+my_set = {'a', 'b', 'c'}
+print(my_set)
+
+### 7. Write a code to Create a set of elements and Clear All Elements from a Set .
+
+numbers = {1, 2, 3, 4, 5}
+numbers.clear()
+print(numbers)
+
+### 8. Write a code to Create an set of an elements and Remove an Element from a Set .
+numbers = {1, 2, 3, 4}
+numbers.remove(4)
+print(numbers)
+
+### 9. write a code to Find the Union of Two Sets .
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1.union(set2)
+print(union_set)
+
+### 10. Write a code to Find the Intersection of Two Sets .
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+intersection_set = set1.intersection(set2)
+print(intersection_set)
+
+### 11. Write a code to Create a Dictionary and Print It .
+person = {"name": "Delta", "age": 30, "city": "New York"}
+print(person)
+
+### 12. Write a code to Add a New Key-Value Pair to a Dictionary .
+person = {"name": "John", "age": 25}
+person["country"] = "USA"
+print(person)
+
+### 13. Write a code to Access the Value Associated with a Key in a Dictionary .
+person = {"name": "Delta", "age": 30}
+name = person["name"]
+print(name)
+
+### 14. Write a code to Remove a Key from a Dictionary .
+person = {"name": "Bob", "age": 22, "city": "New York"}
+del person["age"]
+print(person)
+
+### 15. Write a code to Check if a Key Exists in a Dictionary .
+person = {"name": "Reetak", "city": "Paris"}
+if "city" in person:
+    print("Yes, 'city' is a key in the dictionary.")
+else:
+    print("No, 'city' is not a key in the dictionary.")
+
+### 16. Write a code to Create a List, a Tuple, and a Dictionary, and Print Them .
+my_list = [1, 2, 3]
+my_tuple = (4, 5, 6)
+my_dict = {"a": 1, "b": 2}
+print(my_list)
+print(my_tuple)
+print(my_dict)
+
+### 17. Write a code to Create a List of 5 Random Numbers, Sort It, and Print the Result .
+import random
+numbers = random.sample(range(1, 100), 5)
+numbers.sort()
+print(numbers)
+
+### 18. Write a code to Create a List with Strings and Print the Element at the Third Index .
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+print(fruits[2])
+
+### 19. Write a code to combine Two Dictionaries into One and Print the Result .
+dict1 = {"a": 1, "b": 2}
+dict2 = {"c": 3, "d": 4}
+combined_dict = {**dict1, **dict2}
+print(combined_dict)
+
+### 20. Write a code to Convert a List of Strings into a Set .
+fruits = ["apple", "banana", "cherry", "apple"]
+fruit_set = set(fruits)
+print(fruit_set)
