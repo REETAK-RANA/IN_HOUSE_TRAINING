@@ -53,6 +53,7 @@ class delta():
 
  faculty.total()
 
+
 6.        
 
 class main:
@@ -84,3 +85,19 @@ class main:
             print("Age must be positive.")
 m1 = main("Reetak", 20)
 m1.set_age(25)
+
+
+8.
+
+class main:
+    def __init__(self, name):
+        self.name = name
+
+class result(main):
+    def __init__(self, name, model):
+        super().__init__(name)
+        self.model = model
+
+a1 = result("vostro 3400", "dell")
+print(f"{a1.name} is a laptop of {a1.model} model!")
+
