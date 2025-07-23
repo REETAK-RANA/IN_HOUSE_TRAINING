@@ -25,7 +25,7 @@ class delta():
 
 4.
 
-class person():
+ class person():
      def __init__(self, name, age):
          self.name = name
          self.age = age
@@ -34,6 +34,7 @@ class person():
          print(f"{self.name} is {self.age} years old.")
  p1 = person("Reetak", 20)
  p1.display()
+
 
 5.
 
