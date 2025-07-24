@@ -24,11 +24,11 @@ delta("Reetak":"Rana")
 
 
 #Q5. create a function to check wheater a function is even or odd .
+
 def delta(x):
     if x % 2 == 0:
         return " even "
     else:
         return " odd "
-
-a = delta(input(" enter a number ")
+a = delta(int(input(" enter a number : ")))
 print(a)
