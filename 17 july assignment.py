@@ -1,4 +1,4 @@
-# Q1 Create a function greet(name) that prints “Hello, [name]!.
+# Q1 Create a function greet(name) that prints “Hello, [name]! ?
 def greeting(name):
     print("Hello, " + name )
 greeting("REETAK RANA")
