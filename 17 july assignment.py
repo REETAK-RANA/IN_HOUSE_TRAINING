@@ -11,7 +11,7 @@ def add(a,b):
 print("The sum is:", add(a,b))  
 
 
-#Q3. Create a function display(*args) that accepts multiple arguments and prints them.
+#Q3. Create a function display(*args) that accepts multiple arguments and prints them ?
 def delta(*jatin):
         print(f"my name is {jatin}")
 delta("Reetak","Rana")
