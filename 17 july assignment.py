@@ -17,7 +17,7 @@ def delta(*jatin):
 delta("Reetak","Rana")
 
 
-#Q4. Create a function student_info(**kwargs) that accepts name, age, roll number as keyword arguments and prints them.
+#Q4. Create a function student_info(**kwargs) that accepts name, age, roll number as keyword arguments and prints them ?
 def delta(**jatin):
         print(f"my name is {jatin}")
 delta("Reetak":"Rana")
