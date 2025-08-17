@@ -23,7 +23,7 @@ def delta(**jatin):
 delta("Reetak":"Rana")
 
 
-#Q5. create a function to check wheater a function is even or odd .
+#Q5. create a function to check wheater a function is even or odd ?
 
 def delta(x):
     if x % 2 == 0:
