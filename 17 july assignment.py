@@ -3,7 +3,7 @@ def greeting(name):
     print("Hello, " + name )
 greeting("REETAK RANA")
 
-#Q2. Create a function add(a, b) that returns the sum of two numbers. Call the function with inputs.
+#Q2. Create a function add(a, b) that returns the sum of two numbers. Call the function with inputs ?
 def add(a,b):
    a=int(input("Enter first number: "))
    b=int(input("Enter second number: "))
